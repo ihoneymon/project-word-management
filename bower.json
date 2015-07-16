@@ -1,8 +1,32 @@
 {
-    "name": "project-word-management",
-    "dependencies": {
-    	"angular": "~1.4.3",
-    	"angular-resource": "~1.4.3",
-    	"bootstrap-css-only": "~3.2.0"
-    }    
+  "name": "project-word-management",
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "bootstrap-css-only": "~3.2.0"
+  },
+  "version": "0.0.1",
+  "homepage": "https://github.com/ihoneymon/project-word-management",
+  "authors": [
+    "ihoneymon <ihoneymon@gmail.com>"
+  ],
+  "description": "프로젝트 용어 관리",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "springboot",
+    "gradle",
+    "bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/main/resources/static/bower_components",
+    "test",
+    "tests"
+  ]
 }
